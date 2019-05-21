@@ -1,0 +1,33 @@
+@import "utils/reset";
+@import "utils/fonts";
+@import "utils/vars";
+  
+// code here
+html{
+  font-family: $mainFont;
+  background-color: $default-color;
+  font-size: $mainFontSize;
+}
+
+.wrapper{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.table{
+  margin: auto;
+}
+
+td{
+  border: 1px solid #ccc;
+  width: $squareSize;
+  height: $squareSize;
+}
+
+td.snake{
+  background-color: #ccc;
+}
+
+@import "modules/header.scss";

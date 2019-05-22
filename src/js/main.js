@@ -1,8 +1,7 @@
 import Snake from './component/Component';
 import * as base from './component/base';
 
+const play = new Snake;
+// play.move();
 
-console.log(base.rows[2].cells[4].classList[0]);
-
-
-// const play = new Snake;
+console.log(play.move());
